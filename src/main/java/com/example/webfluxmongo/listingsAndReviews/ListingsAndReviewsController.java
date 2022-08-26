@@ -10,7 +10,7 @@ import static com.example.webfluxmongo.listingsAndReviews.PageSupport.DEFAULT_PA
 import static com.example.webfluxmongo.listingsAndReviews.PageSupport.FIRST_PAGE_NUM;
 
 @RestController
-@RequestMapping("/customers")
+@RequestMapping("/reviews")
 @Slf4j
 public class ListingsAndReviewsController {
     private final ListingsAndReviewsService listingsAndReviewsService;
